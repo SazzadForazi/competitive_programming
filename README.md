@@ -1,4 +1,4 @@
-# competitive_programming
+# Setup
 
 ###TOOLS
 1. install git
