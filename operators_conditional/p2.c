@@ -8,7 +8,7 @@ int main()
         printf("Gucci Bag\n");
         if (n > 20000)
         {
-            printf("Gucci Belt");
+          printf("Gucci Belt");
         }
     }
     else if (n >= 5000)
