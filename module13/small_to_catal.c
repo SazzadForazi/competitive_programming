@@ -5,6 +5,13 @@ char small_to_capital(char a)
     cap = a - 32;
     return cap;
 }
+
+char capital_to_small(char a)
+{
+    char sm;
+    sm = a + 32;
+    return sm;
+}
 int main()
 {
     char c, Capital;
