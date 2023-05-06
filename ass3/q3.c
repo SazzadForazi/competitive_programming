@@ -15,6 +15,7 @@ int count_before_zero(int arr[], int size)
         }
         count++;
     }
+    count++;
 }
 
 int main()
