@@ -12,32 +12,21 @@ int main()
             scanf("%d", &a[i][j]);
         }
     }
-    int flag = 1;
-    if (row != col)
-    {
-        flag = 0;
-    }
+
     for (int i = 0; i < row; i++)
     {
         for (int j = 0; j < col; j++)
         {
-            if (i + j == row - 1)
-            {
-                continue;
-            }
-            if (a[i][j] != 0)
-            {
-                flag = 0;
-            }
+            printf("%d ", a[i][j]);
         }
+        // printf("\n");
     }
-    if (flag == 1)
+    int e;
+    scanf("%d", &e);
+    for (int i = 0; i < col; i++)
     {
-        printf("secondary diagonal");
+        printf("%d ", a[e][i]);
     }
-    else
-    {
-        printf("Not diagonal");
-    }
+
     return 0;
 }

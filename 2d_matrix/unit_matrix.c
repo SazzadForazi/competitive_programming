@@ -21,11 +21,14 @@ int main()
     {
         for (int j = 0; j < col; j++)
         {
-            if (i + j == row - 1)
+            if (i == j)
             {
-                continue;
+                if (a[i][j] != 1)
+                {
+                    flag = 0;
+                }
             }
-            if (a[i][j] != 0)
+            else if (a[i][j] != 0)
             {
                 flag = 0;
             }
@@ -33,11 +36,11 @@ int main()
     }
     if (flag == 1)
     {
-        printf("secondary diagonal");
+        printf("unit matrix");
     }
     else
     {
-        printf("Not diagonal");
+        printf("Not not unit matrix");
     }
     return 0;
 }

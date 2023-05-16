@@ -2,6 +2,7 @@
   "files.associations": {
     "P4.C": "cpp",
     "P3.C": "cpp",
-    "stdio.h": "c"
+    "stdio.h": "c",
+    "DrawingX.C": "cpp"
   }
 }
