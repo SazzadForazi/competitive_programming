@@ -1,2 +1,4 @@
-
-    for (int i = 0; a[i] != '\0'; i++)
+  if (a % k != 0)
+    {
+        printf("%d ", mn);
+    }
